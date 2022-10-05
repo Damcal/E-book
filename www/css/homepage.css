@@ -1,0 +1,169 @@
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#E4E4E4;
+    background-image:linear-gradient(to bottom, #A7A7A7 0%, #E4E4E4 51%);
+    font-family: system-ui, -apple-system, -apple-system-font, 'Segoe UI', 'Roboto', sans-serif;
+    font-size:12px;
+    height:100vh;
+    margin:0px;
+    padding:0px;
+    /* Padding to avoid the "unsafe" areas behind notches in the screen */
+    padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
+    /* text-transform:uppercase; */
+    width:100%;
+    overflow: hidden;
+}
+
+.countainer{
+    width: 395px;
+    /* background-image: linear-gradient(rgba(255, 0, 0, 0.589), yellow, rgb(2, 171, 2)); */
+    height: 850px;
+    margin: auto;
+    border: black solid 2px;
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(255, 255, 0, 0.683);
+
+    
+}
+
+.owner{
+    /* border: solid black 2px; */
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    padding-top: 60px;
+    height: 20vh;
+    background-image: linear-gradient(yellow, rgb(300, 171, 22));
+
+}
+
+.ownerpic img{
+    width: 70px;
+    border-radius: 60px;
+    border: rgb(246, 246, 249) solid 2px;
+    box-shadow: 0px 12px 12px 10px rgba(32, 33, 34, 0.42);
+    margin-left: 20px;
+}
+
+.nameDesc{
+    margin: 10px 0px 0px -10px;
+}
+
+.ownername{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    /* border: 2px solid black; */
+    text-align: center;
+    width: 305px;
+    text-shadow: 0 0 3px #FF0000;   
+    text-transform:uppercase;
+}
+
+.description{
+    width: 305px;
+    /* border: solid black 2px; */
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.suggest{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:25px;
+    margin-top: -30px;
+    background-color: white;
+    height: 35px;
+    color: black;
+}
+
+.bookname{
+    display: flex;
+    border-top: 4px solid rgb(187, 171, 171);
+    border-bottom: 4px solid rgb(187, 171, 171);
+    height: 23vh;
+    background-color: greenyellow;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.book{
+    font-size: 22px;
+    width: 160px;
+    height: 140px;
+    padding: 10px 30px 0px 10px;
+    margin: 20px 10px 0px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 12px 12px 10px rgba(32, 33, 34, 0.42);
+    text-align: left;
+    line-height: 3vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:justify;
+}
+
+.bookcategories{
+    
+    padding-top: 20px;
+}
+
+.allbook{
+    background-color: whitesmoke;
+    border: solid 2px rgba(128, 128, 128, 0.757);
+    border-radius: 25px;
+    width: 300px;
+    height: 10vh;
+    margin:auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(85, 85, 84), 0 0 5px rgb(79, 76, 76);
+    box-shadow: 0px 0px 12px 10px rgba(32, 33, 34, 0.42);
+    padding-top: 25px;
+    line-height: 35px;
+}
+
+.numberofbook{
+    font-size: 50px;
+}
+
+.allbooktag{
+    font-size: 20px;
+}
+
+.selfandcurrentreading{
+    display: flex;
+    align-items: center;
+}
+
+.my{
+    background-color: whitesmoke;
+    border: solid 2px rgba(128, 128, 128, 0.757);
+    border-radius: 25px;
+    width: 130px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 10px;    
+    height: 10vh; 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(85, 85, 84), 0 0 5px rgb(79, 76, 76);
+    box-shadow: 0px 0px 12px 10px rgba(32, 33, 34, 0.42);
+    padding-top: 25px;
+    line-height: 30px;   
+}
+
+.Currentreading{
+    margin-left: 20px;
+}
+
+.numbertag{
+    font-size: 50px;
+    padding-top: 12px;
+}
+
+.texttag{
+    font-size: 15px;
+}
